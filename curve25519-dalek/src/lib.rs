@@ -8,6 +8,7 @@
 // Authors:
 // - isis agora lovecruft <isis@patternsinthevoid.net>
 // - Henry de Valence <hdevalence@hdevalence.ca>
+#![feature(stdsimd)]
 
 #![no_std]
 #![cfg_attr(
@@ -63,6 +64,7 @@ pub use digest;
 // Internal macros. Must come first!
 #[macro_use]
 pub(crate) mod macros;
+
 
 //------------------------------------------------------------------------
 // curve25519-dalek public modules
